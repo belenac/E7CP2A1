@@ -46,3 +46,4 @@ puts g
 
 print a.group_by { |x| x.even? }
 
+print a.group_by { |x| x < 6 }
