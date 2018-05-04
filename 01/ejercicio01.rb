@@ -19,3 +19,9 @@ c = a.map do |e|
 end
 
 print c
+
+d = a.map do |e|
+  e.to_s
+end
+
+print d
