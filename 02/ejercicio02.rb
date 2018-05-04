@@ -6,7 +6,15 @@
 
 nombres = ["Violeta", "Andino", "Clemente", "Javiera", "Paula", "Pia", "Ray"]
 
-nombres.select do |nombre|
+a = nombres.select do |nombre|
   nombre_largo = nombre.length
-  puts nombre if nombre_largo < 5
+  nombre if nombre_largo < 5
 end
+
+print a
+
+b = nombres.map do |e|
+  e.downcase
+end
+
+print b
