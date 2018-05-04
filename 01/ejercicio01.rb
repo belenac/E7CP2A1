@@ -37,3 +37,9 @@ f = a.reject do |e|
 end
 
 print f
+
+g = a.inject(0) do |sum, x| 
+  sum + x
+end
+
+puts g
