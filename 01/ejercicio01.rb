@@ -13,3 +13,9 @@ b = a.map do |e|
 end
 
 print b
+
+c = a.map do |e|
+  e.to_f
+end
+
+print c
