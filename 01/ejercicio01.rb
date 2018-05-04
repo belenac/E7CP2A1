@@ -31,3 +31,9 @@ e = a.reject do |e|
 end
 
 print e
+
+f = a.reject do |e|
+  e > 5
+end
+
+print f
