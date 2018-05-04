@@ -43,3 +43,6 @@ g = a.inject(0) do |sum, x|
 end
 
 puts g
+
+print a.group_by { |x| x.even? }
+
