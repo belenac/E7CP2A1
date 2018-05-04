@@ -25,3 +25,9 @@ d = a.map do |e|
 end
 
 print d
+
+e = a.reject do |e|
+  e < 5
+end
+
+print e
