@@ -20,7 +20,7 @@ end
 print b
 
 c = nombres.select do |nombre|
-  
+  nombre =~ /[Pp]/
 end
 
 print c
