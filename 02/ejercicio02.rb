@@ -25,9 +25,14 @@ end
 
 print c
 
-
 d = nombres.map do |e|
   numero_letras =  e.length
 end
 
 print d
+
+e = nombres.map do |e|
+  e.gsub(/[aAeEiIoOuU]/, '')
+end
+
+print e
